@@ -4,19 +4,18 @@ import uuid from 'uuid'
 
 class Todo extends React.Component {
   state = {
-    todos: [
-      {
-          id: uuid.v4(),
-          title: "Lecture",
-          description: "Class on Monday"
-      },
-      {
-          id: uuid.v4(),
-          title: "Meeting",
-          description: "Call Engr. Dayo 8pm Monday"
-      }
-  ]
+    todos: [ ]
   }
+
+  componentDidMount() {
+    fetch('http://localhost:3000/api/todo/all')
+   .then((response) => response.json())
+   .then((responseJson) =>{
+     this.setState({
+        todos: responseJson
+     });
+   })
+   }
 
   //delete todo
 

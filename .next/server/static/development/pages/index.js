@@ -547,7 +547,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/firecoder/Documents/WebPractices/React/TodoApp/pages/components/AddTodo.js";
 
 
 
@@ -574,8 +573,7 @@ function (_React$Component) {
     _this.state = {
       show: false,
       title: '',
-      description: '',
-      todos: []
+      description: ''
     };
     return _this;
   }
@@ -612,118 +610,44 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
         variant: "primary",
         className: " mr-4",
         onClick: this.handleShow,
         style: {
           float: 'right'
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
+        }
       }, "New Todo"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a, {
         show: this.state.show,
-        onHide: this.handleClose,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
+        onHide: this.handleClose
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Header, {
-        closeButton: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Title, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, "Add a Todo Item")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Body, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        class: "form-group",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
+        closeButton: true
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Title, null, "Add a Todo Item")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Body, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        class: "form-group"
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
         class: "col-form-label col-form-label-sm",
-        for: "inputSmall",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
+        for: "inputSmall"
       }, "Todo Title"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("input", {
         class: "form-control form-control-sm",
         type: "text",
         name: "title",
         value: this.state.title,
-        onChange: this.onChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
+        onChange: this.onChange
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("label", {
-        for: "exampleTextarea",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
+        for: "exampleTextarea"
       }, "Todo description"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("textarea", {
         class: "form-control",
         id: "exampleTextarea",
         rows: "3",
         name: "description",
         value: this.state.description,
-        onChange: this.onChange,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Footer, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        onChange: this.onChange
+      }))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_9___default.a.Footer, null, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
         variant: "secondary",
-        onClick: this.handleClose,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
+        onClick: this.handleClose
       }, "Close"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
         variant: "primary",
-        onClick: this.saveTodo,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
+        onClick: this.saveTodo
       }, "Save")))));
     }
   }]);
@@ -816,40 +740,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/firecoder/Documents/WebPractices/React/TodoApp/pages/components/Navbar.js";
 
 
 
 
 var Navbar = function Navbar() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navbar navbar-expand-lg navbar-dark bg-primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "navbar navbar-expand-lg navbar-dark bg-primary"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "navbar-brand",
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    href: "/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faPen"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faPen"]
   }), "TalkingInk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "navbar-toggler",
     type: "button",
@@ -857,56 +759,28 @@ var Navbar = function Navbar() {
     "data-target": "#navbarColor01",
     "aria-controls": "navbarColor01",
     "aria-expanded": "false",
-    "aria-label": "Toggle navigation",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
+    "aria-label": "Toggle navigation"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "navbar-toggler-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
+    className: "navbar-toggler-icon"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "collapse navbar-collapse",
-    id: "navbarColor01",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
+    id: "navbarColor01"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "navbar-nav mr-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
+    className: "navbar-nav mr-auto"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item active",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+    className: "nav-item active"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+    href: "/"
   }, "Home ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "sr-only",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+    className: "sr-only"
+  }, "(current)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    href: "/about"
+  }, "About", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "sr-only"
   }, "(current)")))))));
 };
 
@@ -945,7 +819,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/firecoder/Documents/WebPractices/React/TodoApp/pages/components/Todo.js";
 
 
 
@@ -970,16 +843,7 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Todo)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {
-      todos: [{
-        id: uuid__WEBPACK_IMPORTED_MODULE_11___default.a.v4(),
-        title: "Lecture",
-        description: "Class on Monday"
-      }, {
-        id: uuid__WEBPACK_IMPORTED_MODULE_11___default.a.v4(),
-        title: "Meeting",
-        description: "Call Engr. Dayo 8pm Monday"
-      }] //delete todo
-
+      todos: []
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "deleteTodo", function (id) {
@@ -1006,23 +870,27 @@ function (_React$Component) {
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Todo, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      fetch('http://localhost:3000/api/todo/all').then(function (response) {
+        return response.json();
+      }).then(function (responseJson) {
+        _this2.setState({
+          todos: responseJson
+        });
+      });
+    } //delete todo
+
+  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_AddTodo__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        addTodo: this.addTodo,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
+        addTodo: this.addTodo
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_TodoItem__WEBPACK_IMPORTED_MODULE_10__["default"], {
         todos: this.state.todos,
-        deleteTodo: this.deleteTodo,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
+        deleteTodo: this.deleteTodo
       }));
     }
   }]);
@@ -1096,7 +964,7 @@ function (_React$Component) {
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-          className: "card border-success mb-3",
+          className: "card border-info mb-3",
           style: {
             maxWidth: "20rem"
           },
@@ -1112,7 +980,7 @@ function (_React$Component) {
             lineNumber: 10
           },
           __self: this
-        }, "Todo ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__["FontAwesomeIcon"], {
+        }, todo.title, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_7__["FontAwesomeIcon"], {
           icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faWindowClose"],
           style: {
             color: "red",
@@ -1132,14 +1000,7 @@ function (_React$Component) {
             lineNumber: 12
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
-          className: "card-title",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 13
-          },
-          __self: this
-        }, todo.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           className: "card-text",
           __source: {
             fileName: _jsxFileName,

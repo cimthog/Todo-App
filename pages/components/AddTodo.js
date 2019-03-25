@@ -14,7 +14,6 @@ class AddTodo extends React.Component {
 
         title: '',
         description: '',
-        todos:[]
       };
     }
   
